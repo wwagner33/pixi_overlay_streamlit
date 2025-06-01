@@ -1,0 +1,18 @@
+{
+    "name": "pixi-overlay-streamlit",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "leaflet": "^1.9.4",
+      "pixi.js": "^7.1.2",
+      "leaflet-pixi-overlay": "github:manubb/Leaflet.PixiOverlay"
+    },
+    "scripts": {
+      "start": "webpack serve --config webpack.config.js",
+      "build": "webpack --config webpack.config.js"
+    }
+  }
+  
