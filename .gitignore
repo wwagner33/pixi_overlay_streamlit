@@ -151,3 +151,31 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# dataset files
+data/
+
+# Cache files
+.cache/
+__pycache__/
+
+# venv directories
+venv/
+.env/
+
+# react directories and files
+react-app-env.d.ts
+react-scripts/
+
+# buld directories
+build/
+
+#node.js
+node_modules/
+# npm
+npm-debug.log
+
+
+
+
+
+

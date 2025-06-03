@@ -13,5 +13,11 @@ else:
         "pixi_overlay_streamlit", path=build_dir
     )
 
-def pixi_overlay(key=None):
-    return _pixi_overlay(key=key, default=None)
+def pixi_overlay(data=None, key=None, **kwargs):
+    """
+    Exibe o componente PixiOverlay.
+    data: GeoJSON dict
+    key: chave do Streamlit
+    kwargs: argumentos extras futuros
+    """
+    return _pixi_overlay(data=data, key=key, default=None, **kwargs)

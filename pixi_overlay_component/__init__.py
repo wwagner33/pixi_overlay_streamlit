@@ -2,6 +2,7 @@ import os
 import streamlit.components.v1 as components
 
 _RELEASE = False
+from .pixi_overlay import pixi_overlay
 
 if not _RELEASE:
     _component_func = components.declare_component(
