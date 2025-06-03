@@ -7,5 +7,7 @@ setup(
     author_email="seuemail@example.com",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=["streamlit>=1.34.0"],
+    install_requires=[
+        "streamlit>=1.34.0",
+    ],
 )
